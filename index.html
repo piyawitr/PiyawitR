@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional resume and portfolio">
+  <meta name="theme-color" content="#123b68">
+  <title>Professional Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top">RESUME<span>.</span></a>
+    <nav aria-label="Main navigation" id="main-nav">
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="button button-light" id="print-button" type="button">Print / Save PDF</button>
+    </div>
+  </header>
+
+  <main id="top" class="page-shell">
+    <section class="hero" id="profile">
+      <div class="hero-copy">
+        <p class="eyebrow" id="hero-eyebrow">PROFESSIONAL PROFILE</p>
+        <h1 id="person-name">Your Name</h1>
+        <p class="position" id="person-position">Your Professional Position</p>
+        <p class="summary" id="person-summary">A short professional summary will appear here.</p>
+        <div class="contact-chips" id="hero-contact"></div>
+      </div>
+      <div class="profile-photo-wrap" id="profile-photo-wrap" hidden>
+        <img id="profile-photo" class="profile-photo" alt="Profile photo">
+      </div>
+    </section>
+
+    <div class="content-grid" id="content-grid">
+      <section class="section" id="experience" data-section="experience">
+        <div class="section-heading"><p class="eyebrow">CAREER</p><h2>Work Experience</h2></div>
+        <div id="experience-list" class="timeline"></div>
+      </section>
+      <section class="section" id="projects" data-section="projects">
+        <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Projects</h2></div>
+        <div id="projects-list" class="card-grid"></div>
+      </section>
+      <section class="section" id="education" data-section="education">
+        <div class="section-heading"><p class="eyebrow">BACKGROUND</p><h2>Education</h2></div>
+        <div id="education-list" class="stack-list"></div>
+      </section>
+      <section class="section" id="skills" data-section="skills">
+        <div class="section-heading"><p class="eyebrow">CAPABILITIES</p><h2>Skills</h2></div>
+        <div id="skills-list" class="skill-list"></div>
+      </section>
+      <section class="section" id="certificates" data-section="certificates">
+        <div class="section-heading"><p class="eyebrow">LEARNING</p><h2>Certificates</h2></div>
+        <div id="certificates-list" class="certificate-list"></div>
+      </section>
+      <section class="section" id="languages" data-section="languages">
+        <div class="section-heading"><p class="eyebrow">LANGUAGES</p><h2>Languages</h2></div>
+        <div id="languages-list" class="stack-list"></div>
+      </section>
+      <section class="section" id="contact" data-section="contact">
+        <div class="section-heading"><p class="eyebrow">GET IN TOUCH</p><h2>Contact</h2></div>
+        <div id="contact-list" class="contact-list"></div>
+      </section>
+      <div id="custom-sections-list" data-section="customSections"></div>
+    </div>
+    <footer class="footer"><span id="footer-name">Your Name</span><span>Resume & Portfolio</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

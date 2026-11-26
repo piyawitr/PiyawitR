@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "category": "Data",
+      "items": [
+        "MySQL",
+        "Excel",
+        "Data Cleaning"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Git",
+        "GitHub",
+        "Power BI"
+      ]
+    }
+  ]
+}

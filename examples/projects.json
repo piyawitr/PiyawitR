@@ -1,0 +1,15 @@
+{
+  "projects": [
+    {
+      "title": "Sales Data Exploration",
+      "description": "State the question, data source, steps taken, and the insight discovered.",
+      "tools": [
+        "MySQL",
+        "Excel"
+      ],
+      "image": "assets/projects/sales-analysis.png",
+      "github": "https://github.com/PiyawitR/your-project",
+      "demo": "https://example.com"
+    }
+  ]
+}

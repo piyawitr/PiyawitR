@@ -1,0 +1,158 @@
+{
+  "name": "Your Name",
+  "position": "Technical Support | Aspiring Data Analyst",
+  "summary": "A technically minded professional who enjoys troubleshooting, analyzing problems, and identifying root causes. Interested in using data to improve processes and support better decisions. Replace this sample summary with your own profile.",
+  "profileImage": "",
+  "contact": [
+    {
+      "label": "Email",
+      "value": "your.email@example.com",
+      "url": "mailto:your.email@example.com",
+      "visible": true
+    },
+    {
+      "label": "GitHub",
+      "value": "PiyawitR",
+      "url": "https://github.com/PiyawitR",
+      "visible": true
+    },
+    {
+      "label": "LinkedIn",
+      "value": "Add your LinkedIn",
+      "url": "",
+      "visible": false
+    }
+  ],
+  "workExperience": [
+    {
+      "title": "Technical Support",
+      "company": "Company Name",
+      "location": "Thailand",
+      "period": "2024 – Present (Sample)",
+      "description": "Replace this with a short description of your role and responsibilities.",
+      "highlights": [
+        "Investigate technical issues and identify root causes.",
+        "Support customers and internal teams with product information and troubleshooting.",
+        "Document findings and communicate practical solutions."
+      ]
+    },
+    {
+      "title": "Previous Position",
+      "company": "Previous Company",
+      "location": "Thailand",
+      "period": "2022 – 2024 (Sample)",
+      "description": "Add your previous work experience here.",
+      "highlights": [
+        "Add a key responsibility or achievement."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Data & Analysis",
+      "items": [
+        "SQL (MySQL)",
+        "Microsoft Excel",
+        "Data Analysis"
+      ]
+    },
+    {
+      "category": "Technical",
+      "items": [
+        "Troubleshooting",
+        "Problem Solving",
+        "Technical Support"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "GitHub",
+        "Python (Learning)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University / College Name",
+      "degree": "Degree / Major",
+      "period": "Year – Year",
+      "details": "Replace with your education details"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Data Analysis Portfolio Project",
+      "description": "Describe the business question, dataset, analysis process, and key finding. This is sample content; replace it with a real project.",
+      "tools": [
+        "MySQL",
+        "Excel",
+        "Data Visualization"
+      ],
+      "image": "",
+      "github": "https://github.com/PiyawitR",
+      "demo": ""
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Certificate Name (Sample)",
+      "issuer": "Issuing Organization",
+      "year": "2026",
+      "image": "assets/certificates/sample-certificate.svg",
+      "url": "https://example.com"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Thai",
+      "level": "Native (sample)"
+    },
+    {
+      "name": "English",
+      "level": "Add your proficiency"
+    }
+  ],
+  "customSections": [
+    {
+      "title": "title test1",
+      "description": "รายละเอียด test1",
+      "order": 1,
+      "visible": true,
+      "paragraphs": [],
+      "bullets": [],
+      "image": "",
+      "links": [],
+      "items": []
+    }
+  ],
+  "sectionVisibility": {
+    "experience": true,
+    "skills": true,
+    "projects": true,
+    "education": true,
+    "certificates": true,
+    "languages": true,
+    "contact": true
+  },
+  "sectionOrder": [
+    "experience",
+    "projects",
+    "education",
+    "customSections",
+    "skills",
+    "certificates",
+    "languages",
+    "contact"
+  ],
+  "sectionColumns": {
+    "experience": "main",
+    "projects": "main",
+    "education": "main",
+    "customSections": "main",
+    "skills": "side",
+    "certificates": "side",
+    "languages": "side",
+    "contact": "side"
+  }
+}

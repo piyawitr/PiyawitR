@@ -1,0 +1,36 @@
+{
+  "customSections": [
+    {
+      "title": "Training",
+      "description": "Professional training and workshops.",
+      "order": 2,
+      "visible": true,
+      "items": [
+        {
+          "title": "SQL for Data Analysis",
+          "description": "Practiced querying, filtering, joins, and aggregations using MySQL."
+        },
+        {
+          "title": "Problem Solving Workshop",
+          "description": "Learned structured approaches to troubleshooting."
+        }
+      ]
+    },
+    {
+      "title": "Additional Information",
+      "description": "A short paragraph can go here.",
+      "order": 3,
+      "visible": true,
+      "bullets": [
+        "Available for hybrid work",
+        "Interested in data-driven process improvement"
+      ],
+      "links": [
+        {
+          "label": "My GitHub",
+          "url": "https://github.com/PiyawitR"
+        }
+      ]
+    }
+  ]
+}

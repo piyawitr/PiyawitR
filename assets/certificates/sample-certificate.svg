@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+  <rect width="760" height="520" fill="#f3f7fb"/>
+  <rect x="36" y="30" width="688" height="460" rx="18" fill="#fff" stroke="#b8cadd" stroke-width="4"/>
+  <rect x="58" y="52" width="644" height="12" rx="6" fill="#123b68"/>
+  <text x="380" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#123b68">SAMPLE CERTIFICATE</text>
+  <text x="380" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#526174">Replace this sample with your real certificate</text>
+  <path d="M280 270 H480" stroke="#cbd9e7" stroke-width="3"/>
+  <text x="380" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#526174">Certificate Name · Issuing Organization</text>
+  <circle cx="380" cy="405" r="34" fill="#eaf2f9" stroke="#2e6fae" stroke-width="3"/>
+  <path d="M365 405 L376 416 L397 390" fill="none" stroke="#2e6fae" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
