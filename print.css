@@ -1,0 +1,34 @@
+/* A compact, print-only CV built from the same resume.json as the portfolio. */
+#print-resume { display: none; }
+@page { size: A4; margin: 8mm; }
+@media print {
+  html, body { width: 210mm; min-height: 0; margin: 0 !important; background: #fff !important; }
+  body > *:not(#print-resume) { display: none !important; }
+  #print-resume { display: block !important; width: 194mm; height: 281mm; overflow: hidden; color: #202a35; font: 8.4pt/1.28 Arial, Helvetica, sans-serif; }
+  #print-resume * { box-sizing: border-box; }
+  .cv-inner { width: 194mm; transform: scale(var(--cv-scale, 1)); transform-origin: top left; }
+  .cv-header { border-bottom: 2px solid #123b68; padding: 0 0 3mm; margin-bottom: 3mm; }
+  .cv-header h1 { margin: 0; color: #123b68; font-size: 23pt; line-height: 1.08; letter-spacing: -.35pt; }
+  .cv-position { margin: 1mm 0; color: #2e6fae; font-size: 11pt; font-weight: 700; }
+  .cv-contact { display: flex; flex-wrap: wrap; gap: 1mm 4mm; color: #445365; font-size: 7.5pt; }
+  .cv-summary { margin: 2mm 0 0; color: #445365; }
+  .cv-columns { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, .95fr); gap: 5mm; align-items: start; }
+  .cv-column { min-width: 0; }
+  .cv-section { margin: 0 0 3mm; break-inside: avoid; }
+  .cv-section h2 { margin: 0 0 1.4mm; padding-bottom: .6mm; border-bottom: .35mm solid #cbd8e5; color: #123b68; font-size: 9.4pt; line-height: 1.15; text-transform: uppercase; letter-spacing: .6pt; }
+  .cv-entry { margin: 0 0 2mm; break-inside: avoid; }
+  .cv-entry:last-child { margin-bottom: 0; }
+  .cv-entry-head { display: flex; justify-content: space-between; gap: 2mm; align-items: baseline; }
+  .cv-entry strong { color: #1c2733; font-size: 8.5pt; }
+  .cv-date, .cv-meta { color: #5c6876; font-size: 7.4pt; }
+  .cv-entry p { margin: .6mm 0 0; }
+  .cv-entry ul { margin: .5mm 0 0; padding-left: 3.5mm; }
+  .cv-entry li { margin: 0 0 .35mm; }
+  .cv-skills { margin: 0 0 1.5mm; }
+  .cv-skills strong { display: block; font-size: 7.8pt; }
+  .cv-tags { margin: .4mm 0 0; color: #36485b; }
+  .cv-tags span:not(:last-child)::after { content: " · "; color: #91a0af; }
+  .cv-links { overflow-wrap: anywhere; color: #36485b; }
+  .cv-empty { display: none; }
+  a { color: inherit; text-decoration: none; }
+}
