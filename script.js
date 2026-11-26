@@ -250,6 +250,7 @@ order.forEach(key => {
 });
 
 layoutRoot.replaceChildren(mainColumn, sideColumn);
+}
 
 $("print-button").addEventListener("click", () => window.print());
 
