@@ -205,22 +205,51 @@ function renderResume(data) {
   }
 
   // All standard sections can be reordered in sectionOrder and moved between columns in sectionColumns.
-  const layoutRoot = $("content-grid");
-  const defaultOrder = ["experience", "projects", "education", "customSections", "skills", "certificates", "languages", "contact"];
-  const order = Array.isArray(data.sectionOrder) ? data.sectionOrder : defaultOrder;
-  const nodes = {
-    experience: $("experience"), projects: $("projects"), education: $("education"),
-    customSections: $("custom-sections-list"), skills: $("skills"),
-    certificates: $("certificates"), languages: $("languages"), contact: $("contact")
-  };
-  order.forEach(key => {
-    if (nodes[key]) {
-      const column = (data.sectionColumns && data.sectionColumns[key]) || (["skills", "certificates", "languages", "contact"].includes(key) ? "side" : "main");
-      nodes[key].dataset.column = column;
-      layoutRoot.appendChild(nodes[key]);
+  
+const layoutRoot = $("content-grid");
+
+const mainColumn = make("div", "content-column main-column");
+const sideColumn = make("div", "content-column side-column");
+
+const defaultOrder = [
+  "experience", "projects", "education",
+  "customSections", "skills", "certificates",
+  "languages", "contact"
+];
+
+const order = Array.isArray(data.sectionOrder)
+  ? data.sectionOrder
+  : defaultOrder;
+
+const nodes = {
+  experience: $("experience"),
+  projects: $("projects"),
+  education: $("education"),
+  customSections: $("custom-sections-list"),
+  skills: $("skills"),
+  certificates: $("certificates"),
+  languages: $("languages"),
+  contact: $("contact")
+};
+
+order.forEach(key => {
+  if (nodes[key]) {
+    const column = (data.sectionColumns && data.sectionColumns[key])
+      || (["skills", "certificates", "languages", "contact"].includes(key)
+        ? "side"
+        : "main");
+
+    nodes[key].dataset.column = column;
+
+    if (column === "side") {
+      sideColumn.appendChild(nodes[key]);
+    } else {
+      mainColumn.appendChild(nodes[key]);
     }
-  });
-}
+  }
+});
+
+layoutRoot.replaceChildren(mainColumn, sideColumn);
 
 $("print-button").addEventListener("click", () => window.print());
 
