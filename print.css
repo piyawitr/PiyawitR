@@ -6,7 +6,7 @@
   body > *:not(#print-resume) { display: none !important; }
   #print-resume { display: block !important; width: 194mm; height: 281mm; overflow: hidden; color: #202a35; font: 8.4pt/1.28 Arial, Helvetica, sans-serif; }
   #print-resume * { box-sizing: border-box; }
-  .cv-inner { width: 194mm; transform: scale(var(--cv-scale, 1)); transform-origin: top left; }
+  .cv-inner { width: 194mm; transform: scaleY(var(--cv-scale, 1)); transform-origin: top left; }
   .cv-header { border-bottom: 2px solid #123b68; padding: 0 0 3mm; margin-bottom: 3mm; }
   .cv-header h1 { margin: 0; color: #123b68; font-size: 23pt; line-height: 1.08; letter-spacing: -.35pt; }
   .cv-position { margin: 1mm 0; color: #2e6fae; font-size: 11pt; font-weight: 700; }
