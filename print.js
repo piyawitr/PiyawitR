@@ -93,10 +93,6 @@
       const box = section(sidebar, "Languages");
       data.languages.forEach(language => entry(box, language.name, language.level, "", "", []));
     }
-    if (isVisible("contact") && contacts.length) {
-      const box = section(sidebar, "Contact");
-      contacts.forEach(item => entry(box, item.label, item.value, "", "", []));
-    }
 
     (data.customSections || []).filter(item => item && item.visible !== false).sort((a,b) => (a.order ?? 999) - (b.order ?? 999)).forEach(item => {
       const box = section(primary, item.title || "Additional information");
