@@ -36,9 +36,8 @@ h1 { margin: 0; color: var(--primary-dark); font-size: clamp(2.2rem, 5vw, 3.8rem
 .profile-photo-wrap { flex: 0 0 150px; }
 .profile-photo { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 5px solid white; box-shadow: var(--shadow); }
 .content-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(260px, .85fr); grid-auto-flow: row dense; gap: 24px; margin-top: 28px; align-items: start; }
-.content-grid > [data-section] { min-width: 0; }
-.content-grid > [data-section][data-column="main"] { grid-column: 1; }
-.content-grid > [data-section][data-column="side"] { grid-column: 2; }
+.content-column { display: flex; flex-direction: column; gap: 24px; min-width: 0; }
+.content-column > [data-section] { min-width: 0; margin: 0; }
 #custom-sections-list { display: grid; gap: 24px; }
 #custom-sections-list .custom-section { margin: 0; }
 .section { min-width: 0; padding: 28px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
@@ -87,7 +86,7 @@ ul.detail-list { margin: 8px 0 0; padding-left: 19px; color: #526174; }
   .page-shell { margin: 20px auto; padding: 0 16px; }
   .hero { padding: 32px 26px; }
   .content-grid { grid-template-columns: 1fr; }
-  .content-grid > [data-section][data-column] { grid-column: 1; }
+  .content-column { gap: 20px; }
 }
 @media (max-width: 560px) {
   .hero { flex-direction: column-reverse; align-items: flex-start; padding: 28px 22px; }
