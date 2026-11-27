@@ -1,6 +1,6 @@
 {
-  "name": "Your Name",
-  "position": "Technical Support | Aspiring Data Analyst",
+  "name": "Piyawit Rawingthong",
+  "position": "Technical Support",
   "summary": "A technically minded professional who enjoys troubleshooting, analyzing problems, and identifying root causes. Interested in using data to improve processes and support better decisions. Replace this sample summary with your own profile.",
   "profileImage": "",
   "contact": [
@@ -26,24 +26,29 @@
   "workExperience": [
     {
       "title": "Technical Support",
-      "company": "Company Name",
+      "company": "Technology Instruments Co., Ltd.",
       "location": "Thailand",
-      "period": "2024 – Present (Sample)",
+      "period": "Feb 2026 – Present",
       "description": "Replace this with a short description of your role and responsibilities.",
       "highlights": [
-        "Investigate technical issues and identify root causes.",
-        "Support customers and internal teams with product information and troubleshooting.",
-        "Document findings and communicate practical solutions."
+        "Review product datasheets against TOR requirements to ensure technical compliance",
+        "Troubleshoot customer issues and recommend suitable solutions",
+        "Coordinate with customers, vendors, and internal teams to support project delivery",
+        "Quickly learn new equipment from manuals and hands-on practice",
+        "Provide technical and pre-sales support to sales teams.",
+        "Provide on-site support, including equipment installation, setup, customer training, and repairs",
       ]
     },
     {
-      "title": "Previous Position",
-      "company": "Previous Company",
+      "title": "Trainee",
+      "company": "ONELINK TECHNOLOGY CO.,LTD.",
       "location": "Thailand",
-      "period": "2022 – 2024 (Sample)",
+      "period": "Jan 2022 – Apr 2022",
       "description": "Add your previous work experience here.",
       "highlights": [
-        "Add a key responsibility or achievement."
+        "Monitored GPS tracking systems and retrieved data via REST API (Postman)",
+        "Performed QC and functional testing of GPS devices before deployment",
+        "Translated technical manuals from English to Thai",
       ]
     }
   ],
@@ -74,9 +79,9 @@
   ],
   "education": [
     {
-      "school": "University / College Name",
-      "degree": "Degree / Major",
-      "period": "Year – Year",
+      "school": "King Mongkut's University of Technology North Bangkok",
+      "degree": "Bachelor's degree, Electronic Engineering (Telecommunication)",
+      "finished": "2025",
       "details": "Replace with your education details"
     }
   ],
@@ -106,7 +111,7 @@
   "languages": [
     {
       "name": "Thai",
-      "level": "Native (sample)"
+      "level": "Native"
     },
     {
       "name": "English",
